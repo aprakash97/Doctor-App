@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_hospital"
+            android:title="Home"
+            android:icon="@drawable/home"/>
+
+        <item android:id="@+id/add_doctor"
+            android:title="Add Doctors"
+            android:icon="@drawable/person_add"/>
+
+        <item android:id="@+id/view_doctors"
+            android:title="View Doctors"
+            android:icon="@drawable/group"/>
+
+        <item android:id="@+id/view_appointment"
+            android:title="View Appointments"
+            android:icon="@drawable/event"/>
+
+        <item android:id="@+id/profile_hospital"
+            android:title="Profile"
+            android:icon="@drawable/person"/>
+
+        <item android:id="@+id/extra_service"
+            android:title="Extra Service"
+            android:icon="@drawable/add_box"/>
+
+        <item android:id="@+id/logout_hospital"
+            android:title="Logout"
+            android:icon="@drawable/login"/>
+
+        <item android:id="@+id/about_us_hospital"
+            android:title="About Us"
+            android:icon="@drawable/about_us"/>
+
+        <item android:id="@+id/terms_condition_hospital"
+            android:title="@string/terms_conditions"
+            android:icon="@drawable/text_snippet"/>
+
+        <item android:id="@+id/privary_hospital"
+            android:title="Privacy Policy"
+            android:icon="@drawable/settings"/>
+
+        <item android:id="@+id/contact_hospital"
+            android:title="Contact"
+            android:icon="@drawable/phone_android"/>
+
+
+    </group>
+</menu>
