@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_hl"
+    android:background="@drawable/welcome"
+    android:orientation="vertical"
+    tools:context=".HospitalLogin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/app_bar"/>
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:id="@+id/Navigation_view_hup"
+        android:layout_gravity="start"
+        android:background="#0e66b9"
+        app:itemTextColor="@color/white"
+        app:headerLayout="@layout/header_navigation"
+        app:menu="@menu/main_menu_visitors"
+        app:itemHorizontalPadding="40dp"
+        app:itemIconTint="@color/white"
+        app:itemBackground="@drawable/menu_item_padding"
+        app:itemTextAppearance="@style/TextViewStyle"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="150dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Hospital Login"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:textSize="24dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/login_reg_no"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter Registration No"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/input_bg"
+                android:drawableLeft="@drawable/security"
+                android:drawablePadding="10dp"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"/>
+
+
+            <EditText
+                android:id="@+id/login_hos_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Enter Password"
+                android:inputType="textPassword"
+                android:layout_marginTop="15dp"
+                android:drawableLeft="@drawable/lock"
+                android:drawablePadding="10dp"
+                android:background="@drawable/input_bg"
+                android:textSize="16dp"
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="You Don't Have an account?"
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hospital_login_to_sign_un"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/white"
+                android:text="@string/sign_up"
+                android:textColor="@color/attention"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/hospital_login_to_profile"
+                android:layout_width="180dp"
+                android:layout_height="45dp"
+                android:text="SIGN IN"
+                android:textSize="18dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_save_bg"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="680dp"
+        android:orientation="horizontal">
+
+        <include layout="@layout/bottom_bar"/>
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>
