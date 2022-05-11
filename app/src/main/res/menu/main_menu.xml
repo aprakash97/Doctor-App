@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+    android:id="@+id/home"
+    android:icon="@drawable/ic_myfeed"
+    android:title="Home" />
+
+    <item
+        android:id="@+id/sentEmail"
+        android:icon="@drawable/ic_check"
+        android:title="Doctor's Email" />
+
+    <item
+        android:id="@+id/compatible"
+        android:icon="@drawable/compatible"
+        android:title="Home" />
+
+    <item android:title="Disease Types">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/dermatologists"
+                    android:icon="@drawable/compatible"
+                    android:title="Dermatologists" />
+
+                <item
+                    android:id="@+id/ophthalmologists"
+                    android:icon="@drawable/compatible"
+                    android:title="Ophthalmologists" />
+
+                <item
+                    android:id="@+id/allergists"
+                    android:icon="@drawable/compatible"
+                    android:title="Allergists" />
+
+                <item
+                    android:id="@+id/cardiologists"
+                    android:icon="@drawable/compatible"
+                    android:title="Cardiologists" />
+
+                <item
+                    android:id="@+id/infectious_disease_doctors"
+                    android:icon="@drawable/compatible"
+                    android:title="Infectious disease doctors" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Actions">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/ic_profile"
+                    android:title="Profile" />
+
+                <item
+                    android:id="@+id/notification"
+                    android:icon="@drawable/ic_notification"
+                    android:title="Notification" />
+
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Logout" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Coomunicate">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/about"
+                    android:icon="@drawable/ic_about"
+                    android:title="About" />
+
+                <item
+                    android:id="@+id/share"
+                    android:icon="@drawable/ic_share"
+                    android:title="Share" />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

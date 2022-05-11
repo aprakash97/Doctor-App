@@ -3,17 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/BDApplication/app/src/main/res/drawable/header_backgroud.xml" value="0.1" />
         <entry key="..\:/Android/BDApplication/app/src/main/res/drawable/ic_mail.xml" value="0.14" />
+        <entry key="..\:/Android/BDApplication/app/src/main/res/drawable/ic_myfeed.xml" value="0.1" />
         <entry key="..\:/Android/BDApplication/app/src/main/res/drawable/ic_number.xml" value="0.1" />
         <entry key="..\:/Android/BDApplication/app/src/main/res/drawable/ic_password.xml" value="0.1" />
         <entry key="..\:/Android/BDApplication/app/src/main/res/drawable/ic_person.xml" value="0.1" />
         <entry key="..\:/Android/BDApplication/app/src/main/res/drawable/ic_phone.xml" value="0.1" />
+        <entry key="..\:/Android/BDApplication/app/src/main/res/drawable/ic_share.xml" value="0.1" />
+        <entry key="..\:/Android/BDApplication/app/src/main/res/drawable/navigation_selector.xml" value="0.1" />
+        <entry key="..\:/Android/BDApplication/app/src/main/res/drawable/navigation_view_item_selected.xml" value="0.1165" />
+        <entry key="..\:/Android/BDApplication/app/src/main/res/drawable/navigation_view_item_selector.xml" value="0.1" />
         <entry key="..\:/Android/BDApplication/app/src/main/res/layout/activity_doctor_registration.xml" value="0.1" />
         <entry key="..\:/Android/BDApplication/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Android/BDApplication/app/src/main/res/layout/activity_main.xml" value="0.18177083333333333" />
         <entry key="..\:/Android/BDApplication/app/src/main/res/layout/activity_patient_registration.xml" value="0.1" />
         <entry key="..\:/Android/BDApplication/app/src/main/res/layout/activity_select_registration.xml" value="0.1" />
         <entry key="..\:/Android/BDApplication/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="..\:/Android/BDApplication/app/src/main/res/layout/header.xml" value="0.1" />
       </map>
     </option>
   </component>
