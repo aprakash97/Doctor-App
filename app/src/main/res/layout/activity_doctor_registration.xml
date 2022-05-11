@@ -178,7 +178,7 @@
                         android:id="@+id/registerPassword"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:drawableStart="@drawable/ic_phone"
+                        android:drawableStart="@drawable/ic_password"
                         android:drawablePadding="10dp"
                         android:hint="Enter Password"
                         android:inputType="textPassword"

@@ -10,16 +10,16 @@ import android.widget.TextView;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private Button registerButton;
+    private TextView backButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        registerButton = findViewById(R.id.registerButton);
+        backButton = findViewById(R.id.backButton);
 
-        registerButton.setOnClickListener(new View.OnClickListener() {
+        backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(LoginActivity.this, SelectRegistrationActivity.class);
