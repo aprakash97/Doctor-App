@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BDApplication">
         <activity
+            android:name=".PatientRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SelectRegistrationActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity

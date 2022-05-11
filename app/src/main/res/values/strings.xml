@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">BD Application</string>
+    <string-array name="specialization">
+        <item>Select your specialization</item>
+        <item>Dermatologists</item>
+        <item>Ophthalmologists</item>
+        <item>Allergists</item>
+        <item>Cardiologists</item>
+        <item>Infectious disease doctors</item>
+    </string-array>
 </resources>

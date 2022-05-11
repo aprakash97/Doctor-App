@@ -27,15 +27,18 @@ public class SplachScreenActivity extends AppCompatActivity {
         title = findViewById(R.id.title);
         slogan = findViewById(R.id.slogan);
 
+        //Loading created animation to a variable
         topAnimation = AnimationUtils.loadAnimation(this, R.anim.top_animation);
         bottomAnimation = AnimationUtils.loadAnimation(this, R.anim.bottom_animation);
 
+        //Setting animations to the respective ids
         logo.setAnimation(topAnimation);
         title.setAnimation(bottomAnimation);
         slogan.setAnimation(bottomAnimation);
 
         int SPLASH_SCREEN = 4300;
 
+        //Login activity showing after animation
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
